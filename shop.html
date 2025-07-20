@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>ExileFN - Shop</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #121212;
+      color: white;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 20px;
+      font-size: 28px;
+      font-weight: bold;
+    }
+    .product {
+      background: #1e1e1e;
+      padding: 20px;
+      margin: 20px auto;
+      width: 300px;
+      border-radius: 10px;
+    }
+    img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    h2 {
+      margin-top: 10px;
+    }
+    button {
+      background: #0070ba;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+      margin-top: 10px;
+    }
+    button:hover {
+      background: #005c9e;
+    }
+    a {
+      color: #0f9d58;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+  <header>ExileFN - Acheter maintenant</header>
+
+  <!-- Ikonik -->
+  <div class="product" id="ikonik">
+    <img src="https://imgsvc.trackercdn.com/url/size(1280x720),fit(cover),quality(100)/https%3A%2F%2Ftrackercdn.com%2Flegacycdn%2Farticles%2F4B6FFortnite_ikonik_skin.jpg/image.jpg" alt="Ikonik">
+    <h2>Ikonik - 14,99€</h2>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="TON_EMAIL_PAYPAL">
+      <input type="hidden" name="item_name" value="Ikonik - ExileFN">
+      <input type="hidden" name="amount" value="14.99">
+      <input type="hidden" name="currency_code" value="EUR">
+      <button type="submit">Acheter avec PayPal</button>
+    </form>
+  </div>
+
+  <!-- Pioche FNCS -->
+  <div class="product" id="pioche">
+    <img src="https://fbi.cults3d.com/uploaders/16377657/illustration-file/23412f83-b332-40ce-8921-611385ec3a25/awre.jpg" alt="Pioche FNCS">
+    <h2>Pioche FNCS - 3,99€</h2>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="TON_EMAIL_PAYPAL">
+      <input type="hidden" name="item_name" value="Pioche FNCS - ExileFN">
+      <input type="hidden" name="amount" value="3.99">
+      <input type="hidden" name="currency_code" value="EUR">
+      <button type="submit">Acheter avec PayPal</button>
+    </form>
+  </div>
+
+  <!-- Pack Travis Scott -->
+  <div class="product" id="travis">
+    <img src="https://static.wikia.nocookie.net/fortnite/images/5/52/Travis_Scott_-_Promo_-_Fortnite.jpg/revision/latest?cb=20210423015037" alt="Pack Travis Scott">
+    <h2>Pack Travis Scott - 19,99€</h2>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="TON_EMAIL_PAYPAL">
+      <input type="hidden" name="item_name" value="Pack Travis Scott - ExileFN">
+      <input type="hidden" name="amount" value="19.99">
+      <input type="hidden" name="currency_code" value="EUR">
+      <button type="submit">Acheter avec PayPal</button>
+    </form>
+  </div>
+
+  <!-- Chevalier noir -->
+  <div class="product" id="chevalier">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTUhVWkk4PIE7xmfx-BbYuhfrwXHeUVgSjT9g&s" alt="Chevalier noir">
+    <h2>Chevalier noir - 14,99€</h2>
+    <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+      <input type="hidden" name="cmd" value="_xclick">
+      <input type="hidden" name="business" value="Jacobilebg12@gmail.com">
+      <input type="hidden" name="item_name" value="Chevalier noir - ExileFN">
+      <input type="hidden" name="amount" value="14.99">
+      <input type="hidden" name="currency_code" value="EUR">
+      <button type="submit">Acheter avec PayPal</button>
+    </form>
+  </div>
+
+  <p><a href="index.html">← Retour à l'accueil</a></p>
+</body>
+</html>
